@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+}
+
+.container .home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 32px;
+}
+
+.container .home-container .names {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.container .home-container .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .home-container .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.container .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  background: linear-gradient(
+    312deg,
+    rgba(254, 243, 255, 1) 0%,
+    rgba(250, 255, 184, 1) 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 32px;
+  margin-left: 12px;
+  padding: 24px;
+}
+
+.container .card .price {
+  margin-left: -32%;
+  margin-top: 12px;
+}
+
+.container .card h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.container .card .price p {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.container .card .price span {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.container .card .description {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 24px;
+}
